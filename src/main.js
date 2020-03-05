@@ -1,4 +1,13 @@
 import Vue from 'vue'
+import Vuelidate from 'vuelidate'
+Vue.use(Vuelidate)
+
+
+import Ionic from '@ionic/vue';
+import '@ionic/core/css/ionic.bundle.css';
+
+Vue.use(Ionic);
+Vue.config.productionTip = false;
 import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
