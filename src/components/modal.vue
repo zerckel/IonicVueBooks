@@ -2,7 +2,8 @@
     <div>
         <ion-header>
             <ion-toolbar>
-                <ion-title>Add a New Book</ion-title>
+                <ion-title v-if="modify">Modify Your Book</ion-title>
+                <ion-title v-else>Add a New Book</ion-title>
                 <ion-button slot="end" v-on:click="dismissModal(null)">Close</ion-button>
             </ion-toolbar>
         </ion-header>

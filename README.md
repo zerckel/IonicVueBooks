@@ -1,19 +1,19 @@
 # ionicbooks
 
-## Project setup
+##
 ```
-npm install
+    Salut Clément c'est Antoine :D
 ```
 
-### Compiles and hot-reloads for development
+### En ligne à cette adresse 
+
+[IonicBooks.com](https://booksmanager-29fde.firebaseapp.com)
+
+
+### Lancer le serveur
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Service Worker activé
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
